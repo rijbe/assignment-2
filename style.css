@@ -1,0 +1,124 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.total-section{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+h1{
+    margin-left: 100px;
+}
+
+.navbar{
+   
+    margin-top: 30px;
+    margin-right: 150px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+/* section start */
+.main-container{
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.section-heading{
+    text-align: center;
+    margin-left: 150px;
+    width: 195px;  
+    
+    
+}
+.primary{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF900E;
+    color: #ffffff;
+}
+.banner img{
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 890px;
+}
+/* section end */
+.temam{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 800px;
+    
+    margin: 0 auto;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;  
+    gap: 10px;
+}
+.team img{
+    width: 250px;
+    
+}
+.teams{
+    margin-top: 40%;
+    margin-left: 80px;
+}
+.teams-contant{
+    color: rgba(114, 114, 114, 1);
+}
+.dark{
+     color: rgba(114, 114, 114, 1);
+    
+}
+.dark-1{
+   color: rgba(19, 19, 19, 1);
+}
+.dark-2{
+    color: rgba(255, 144, 14, 1);
+}
+/* future section start */
+.futur-section{
+    width: 870px;
+    margin: 0px auto;
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+}
+.futures{
+    width: 50%;
+}
+.futures-section{
+    display: flex;
+}
+.row{
+    border-left: 1px solid #FF900E;
+}
+.heading{
+    font-size: 30px;
+    padding-right: 20px;
+    border-left: 2px solid #FF900E;
+}
+
+.futures-contant{
+    margin-top: 50px;
+    color: rgba(114, 114, 114, 1);
+}
+.version{
+    box-shadow: 3px 3px 3px 3px aliceblue;
+    background-color: ;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+.futures-images img{
+    display: flex;
+    width: 100%;
+}
+
+/* future section end */
