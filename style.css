@@ -167,3 +167,29 @@ h1{
     margin-top: 10px;
 }
 /* article part end here */
+/* article part one start */
+.sponsers{
+    text-align: center;
+    margin: 0 auto; 
+}
+.sponser-heading{
+    margin-top: 50px;
+
+}
+.sponsers-content{
+   margin-left: 480px;
+    width: 450px;
+}
+.sponser{
+    
+    width: 887px;
+    margin: 0 auto;
+    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sppnsers-images{
+    margin-top: 40px;
+    color: #ffffff;
+}
+/* article part one end */
