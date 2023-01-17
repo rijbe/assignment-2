@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
 }
+/* header section start */
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -23,6 +26,7 @@ h1{
     color: black;
     margin: 20px;
 }
+/* header section end  */
 /* section start */
 .main-container{
     width: 500px;
@@ -34,7 +38,7 @@ h1{
 .section-heading{
     text-align: center;
     margin-left: 150px;
-    width: 195px;  
+    width: 250px;  
     
     
 }
@@ -54,6 +58,7 @@ h1{
     margin-bottom: 50px;
 }
 /* section end */
+/* main section part-2 start */
 .temam{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -88,6 +93,7 @@ h1{
 .dark-2{
     color: rgba(255, 144, 14, 1);
 }
+/* main section part-2 end */
 /* future section start */
 .futur-section{
     width: 870px;
@@ -164,7 +170,7 @@ h1{
     border: 1px solid #FF900E;
     border-radius: 3px;
     width: 150px;
-    height: 150px;
+    height: 180px;
     text-align: center;
 }
 .card-icon img{
