@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -191,5 +195,20 @@ h1{
 .sppnsers-images{
     margin-top: 40px;
     color: #ffffff;
+    margin-bottom: 30px;
 }
 /* article part one end */
+/* footer section start */
+footer{
+    margin-top: 50px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    width: 1000px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer-content p{
+   margin-top: 30px;
+}
+/* footer section start */
